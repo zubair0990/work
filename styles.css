@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #search {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  #hostel-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .hostel-item {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+  }

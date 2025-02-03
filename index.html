@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Display Zubair</title>
+<style>
+  /* Basic styling for the output */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #839c15;
+    font-family: Arial, sans-serif;
+  }
+
+  #output {
+    font-size: 250px;
+    font-weight: bold;
+    color: #4314a9;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  /* Simple fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+</style>
+</head>
+  <script>
+    // Optional: You can add dynamic behavior here
+    // For example, change the text after a delay
+    setTimeout(() => {
+      document.getElementById('output').textContent = " love you khan G!";
+    }, 3000); // Changes text after 3 seconds
+    </script>
+  </head>
+  <body>
+    <div id="output">Hello!</div>
+  </body>
+</body>
+</html>
